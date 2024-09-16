@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas do dia</title>
+    <link rel="stylesheet" href="formatos.css">
+</head>
+
+<body>
+    <header id="home">
+        <img src=".\logotipo.png" alt="logotipo" />
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#receitas">Receitas</a></li>
+                <li><a href="#cadastro">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="receitas">
+        <h1>Receitas do dia</h1>
+        <div class="receita">
+            <h3>Bolo de Chocolate</h3>
+            <img src=".\bolo.jpg" alt="Bolo de Chocolate">
+            <div class="detalhes">
+                <h4>Ingredientes:</h4>
+                <p>Farinha, açúcar, cacau, ovos, manteiga, fermento.</p>
+                <h4>Modo de Preparo:</h4>
+                <p>Misture os ingredientes secos, adicione os líquidos e asse em forno pré-aquecido a 180°C por 30
+                    minutos.</p>
+            </div>
+        </div>
+
+        <div class="receita">
+            <h3>Salada Caesar</h3>
+            <img src=".\salada.jpg" alt="Salada Caesar">
+            <div class="detalhes">
+                <h4>Ingredientes:</h4>
+                <p>Alface, croutons, queijo parmesão, molho Caesar.</p>
+                <h4>Modo de Preparo:</h4>
+                <p>Misture a alface com os croutons e queijo parmesão. Adicione o molho e misture bem antes de servir.
+                </p>
+            </div>
+        </div>
+        <div class="receita">
+            <h3>Farofa d'Agua</h3>
+            <img src=".\farofa.jpg" alt="Farofa d'agua">
+            <div class="detalhes">
+                <h4>Ingredientes:</h4>
+                <p>Salsa, cebola, pimentão, farinha, bacon, 200ml manteiga, 250ml agua.</p>
+                <h4>Modo de Preparo:</h4>
+                <p>Doure a cebola na manteiga em fogo medio. Adicione agua fria, farinha e demais ingredientes.</p>
+            </div>
+        </div>
+    </section>
+    <section id="cadastro">
+        <h1>Cadastro</h1>
+        <form>
+            <div class="formulario">
+                <label>Nome</label>
+                <input type="text" placeholder="Digite seu nome" name="nome" required>
+
+                <label>E-mail</label>
+                <input type="email" required>
+
+                <label>Cidade</label>
+                <input type="text" name="cidade" required>
+
+                <label>Estado</label>
+                <input type="text" name="estado" required>
+
+                <label>Rua</label>
+                <input type="text" name="rua" required>
+
+                <label>Numero</label>
+                <input type="text" name="numero" required>
+
+                <label>Complemento</label>
+                <input type="text" name="complemento" required>
+
+                <label>CEP</label>
+                <input type="text" name="cep" required>
+            </div>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+
+    </section>
+
+    <footer>
+        <p>© Copyright 2024 | Todos os direitos reservados (Fábio Ítalo).</p>
+    </footer>
+</body>
+
+</html>
